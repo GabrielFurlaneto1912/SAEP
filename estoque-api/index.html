@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Estoque | SAEP</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <aside class="sidebar">
+            <div class="logo">Estoque<span>.</span></div>
+
+            <p class="menu-title">Menu principal</p>
+
+            <nav class="menu">
+                <a href="/" class="active">Dashboard</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#movimentacoes">Movimentações</a>
+                <a href="#relatorios">Relatórios</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+
+            <header class="page-header">
+                <div>
+                    <h1>Controle de estoque</h1>
+                    <p>Gerencie seus produtos e movimentações.</p>
+                </div>
+
+                <button class="btn btn-primary">
+                    + Novo produto
+                </button>
+            </header>
+
+            <section class="stats-grid">
+                <div class="stat-card blue">
+                    <p class="label">Produtos cadastrados</p>
+                    <p class="value">3</p>
+                </div>
+
+                <div class="stat-card green">
+                    <p class="label">Categorias</p>
+                    <p class="value">3</p>
+                </div>
+
+                <div class="stat-card orange">
+                    <p class="label">Entradas</p>
+                    <p class="value">18</p>
+                </div>
+
+                <div class="stat-card red">
+                    <p class="label">Saídas</p>
+                    <p class="value">5</p>
+                </div>
+            </section>
+
+            <section class="panel" id="produtos">
+                <div class="panel-header">
+                    <div>
+                        <h2>Produtos cadastrados</h2>
+                        <p>Consulte os itens do estoque.</p>
+                    </div>
+                </div>
+
+                <div class="table-wrapper">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Produto</th>
+                                <th>Categoria</th>
+                                <th>Quantidade</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Barbante</td>
+                                <td>Crochê</td>
+                                <td>20</td>
+                                <td>R$ 15,50</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <footer class="footer">
+                Sistema de Estoque • SAEP
+            </footer>
+
+        </main>
+    </div>
+
+</body>
+</html>
